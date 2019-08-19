@@ -1,0 +1,10 @@
+ENT.Type = "anim"
+ENT.Base = "base_gmodentity"
+ENT.RenderGroup = RENDERGROUP_BOTH
+ENT.PrintName		= "Inventory level 2"
+ENT.Spawnable = true
+ENT.AdminOnly = true
+ENT.Author			= "Evil Factory"
+ENT.Contact			= "fredespy@outlook.com"
+ENT.Category = "Evil_Inventory"
+ENT.Instructions	= "Press use to use LOLLLLl"
