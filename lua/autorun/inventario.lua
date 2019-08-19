@@ -1,14 +1,5 @@
 if SERVER then
 
-
-CreateConVar( "inventory_max_pickup_distance", "70", { FCVAR_REPLICATED, FCVAR_ARCHIVE } )
-
-CreateConVar( "inventory_level1_size", "3", { FCVAR_REPLICATED, FCVAR_ARCHIVE } )
-
-CreateConVar( "inventory_level2_size", "6", { FCVAR_REPLICATED, FCVAR_ARCHIVE } )
-
-CreateConVar( "inventory_level3_size", "10", { FCVAR_REPLICATED, FCVAR_ARCHIVE } )
-
 util.AddNetworkString( "inventory_item" )
 util.AddNetworkString( "inventory_item_back" )
 util.AddNetworkString( "spawna_sa_bosta" )
